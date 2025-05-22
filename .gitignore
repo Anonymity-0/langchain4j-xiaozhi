@@ -1,0 +1,28 @@
+# 忽略本地配置文件
+src/main/resources/application-local.yml
+*.local.yml
+*.local.properties
+
+# 编译输出
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE相关
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.project
+.classpath
+
+# 日志
+*.log
+log/
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db

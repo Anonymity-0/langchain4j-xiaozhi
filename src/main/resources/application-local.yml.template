@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    include: local
+pinecone:
+  api-key: your-pinecone-api-key-here
+dashscope:
+  api-key: your-dashscope-api-key-here
+
